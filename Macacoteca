@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macacoteca - Explore o Mundo do Conhecimento!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .content {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #4CAF50;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Macacoteca</h1>
+    <p>Explore o mundo do conhecimento de forma interativa!</p>
+</header>
+
+<nav>
+    <a href="#agendamentos">Agendamentos</a>
+    <a href="#programas-online">Programas Online</a>
+    <a href="#blog">Blog</a>
+    <a href="#grupos">Grupos</a>
+    <a href="#acervo">Acervo de Arquivos</a>
+</nav>
+
+<div class="content">
+
+    <section id="agendamentos" class="section">
+        <h2>Agendamentos</h2>
+        <p>Organize sua rotina de aprendizado com nossos agendamentos personalizados. Reserve horários para participar de sessões, workshops e aulas interativas.</p>
+    </section>
+
+    <section id="programas-online" class="section">
+        <h2>Programas Online</h2>
+        <p>Explore nossos programas online, projetados para tornar o aprendizado divertido e acessível. Aprenda no seu ritmo com cursos, atividades e conteúdo exclusivo.</p>
+    </section>
+
+    <section id="blog" class="section">
+        <h2>Blog</h2>
+        <p>Fique por dentro das novidades e dicas sobre conhecimento e curiosidades educacionais no nosso blog. Atualizações semanais com conteúdos incríveis!</p>
+    </section>
+
+    <section id="grupos" class="section">
+        <h2>Grupos</h2>
+        <p>Junte-se a grupos de estudo e comunidades de aprendizado para discutir tópicos, compartilhar ideias e interagir com outros alunos e especialistas.</p>
+    </section>
+
+    <section id="acervo" class="section">
+        <h2>Acervo de Arquivos</h2>
+        <p>Acesse nosso acervo com documentos, vídeos, e-books e outros recursos para ampliar seu conhecimento. Um verdadeiro tesouro de aprendizado!</p>
+    </section>
+
+</div>
+
+<footer class="footer">
+    <p>&copy; 2023 Macacoteca - Plataforma de Ensino Remoto. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
